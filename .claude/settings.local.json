@@ -20,7 +20,11 @@
       "Bash(cmd /c taskkill /F /IM node.exe)",
       "Bash(cmd /c \"tasklist | findstr node\")",
       "Bash(cmd /c \"wmic process where ProcessId=18664 delete\")",
-      "Bash(powershell -Command \"Stop-Process -Id 18664 -Force\")"
+      "Bash(powershell -Command \"Stop-Process -Id 18664 -Force\")",
+      "Bash(python -c \":*)",
+      "Bash(npm uninstall xlsx)",
+      "Bash(npm install exceljs)",
+      "Bash(npx next build)"
     ]
   }
 }

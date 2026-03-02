@@ -13,12 +13,12 @@
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
     "drizzle-orm": "^0.45.1",
+    "exceljs": "^4.4.0",
     "nanoid": "^5.1.6",
     "next": "16.1.6",
     "qrcode": "^1.5.4",
     "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "xlsx": "^0.18.5"
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
